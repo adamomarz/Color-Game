@@ -74,7 +74,6 @@ function baseUI(){
 	text("What is the " + colorText + " value of this color?",150,300);
 	text("Timer: " + timer, 550, 350);
 	text("Points: " + points, 200, 350);
-	text("GAME OVER", 380,600);
 	if (frameCount % 60 == 0 && timer > 0 && on) {
     timer --;
   }
