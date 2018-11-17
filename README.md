@@ -2,7 +2,7 @@
 A game about color values using p5.js
 
 
-##Instructions
+# Instructions
 
 How the game works is pretty simple. You type in the text box what you think the number of the specific RGB value is. While testing the game it was pretty hard to get the exact number so I made it so you can be off by 10 digits.
 
