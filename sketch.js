@@ -59,8 +59,7 @@ function colorchange(){
 
 
 function validateColor() {
-
-	if (input.value() == Math.floor(pickedColor) && on == true || input.value() <= Math.floor(pickedColor)+20 || input.value() <= Math.floor(pickedColor)-20){
+	if (Math.floor(pickedColor) - 5 < input.value() && input.value() < Math.floor(pickedColor) + 5) {
 			console.log("winner")
 			colorchange();
 			points = points + 1;
@@ -76,11 +75,12 @@ function baseUI(){
 	text("What is the " + colorText + " value of this color?",150,300);
 	text("Timer: " + timer, 550, 350);
 	text("Points: " + points, 200, 350);
+	text("GAME OVER", 380,600);
 	if (frameCount % 60 == 0 && timer > 0 && on) {
     timer --;
   }
   if (timer == 0) {
-    text("GAME OVER", width/2, height*0.7);
+    text("GAME OVER", 550,800);
 		on = false;
 		input.disabled();
   }
