@@ -1,7 +1,12 @@
 
 ### TODO
 
-- [x] Make it so the user can be 20 off of number
-- [] Fix clock so it doesnt start on webpage load
-- [] Create start game button
-- [] tally total number of tires
+*Project done!*
+
+##Features to be added
+
+- Leader board
+- Better design/style
+- Better looking button
+- A counter for how many times a wrong answer was entered
+- difficulty levels 
