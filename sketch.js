@@ -53,7 +53,6 @@ function colorchange(){
 	 pickedColor = b;
 	 colorText = "Blue";
 	}
-	console.log(Math.floor(pickedColor));
 
 }
 
